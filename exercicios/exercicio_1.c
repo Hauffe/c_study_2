@@ -11,7 +11,7 @@ int * criaVetor(int tam, int lim){
     vet = malloc(tam * sizeof (int));
     if(vet){
         for(i = 0; i<tam; i++){
-            *(vet+i) = rand() %lim;
+            vet[i] = rand() %lim;
         }
     }
     return vet;
@@ -22,7 +22,7 @@ int * expandeVetor(int *v, int tam, int n, int lim){
     vet = realloc(v, tam);
     if(vet){
         for(i = n; i<tam; i++){
-            *(vet+i) = rand() %lim;
+            vet[i] = rand() %lim;
         }
     }
     return vet;
