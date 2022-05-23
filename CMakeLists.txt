@@ -9,4 +9,8 @@ add_executable(
         exercicios/exercicio_1.h
         exercicios/exercicio_2.c
         exercicios/exercicio_2.h
-        )
+        exercicios/exercicio_3.c
+        exercicios/exercicio_3.h
+        exercicios/exercicio_4.c
+        exercicios/exercicio_4.h
+)

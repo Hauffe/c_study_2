@@ -1,11 +1,6 @@
-//
-// Created by Alexandre on 5/22/2022.
-//
-
 #include "exercicio_2.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 int * criaVetorDe1A10(int tam){
     int i, *vet;
